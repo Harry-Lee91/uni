@@ -118,7 +118,7 @@ html, body {
   margin: 0 auto;
   width: 230px;
   height: 230px;
-  background-color: yellow;
+  background-color: #196fc2;
   border: 0;
   transform: translate(-50%, -50%) rotate(45deg);
   -webkit-transform: translate(-50%, -50%) rotate(45deg);

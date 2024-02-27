@@ -601,7 +601,7 @@ html, body {
  * Sections
  */
 .site-section {
-  padding: 120px 0;
+  padding: 50px 0;
 }
 
 .site-section h2 {
@@ -1013,8 +1013,17 @@ html, body {
 }
 
 .section-services .col-sm-fifth {
-  width: 25%;
+  width: 20%;
   display: table;
+}
+
+#item5{
+  width: 100%;
+}
+
+.col-md-7{
+  width: 100%;
+  margin-bottom: 50px;
 }
 
 .section-services .nav-tabs {
@@ -1188,6 +1197,11 @@ html, body {
   border-color: #196fc2 transparent transparent transparent;
   z-index: 99;
 }
+
+
+
+
+
 
 @media only screen and (max-width: 991px) {
   /* Section: Services */
@@ -2147,8 +2161,8 @@ html, body {
   line-height: 85px;
   text-align: center;
   margin: 0 15px;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
+  /* filter: grayscale(100%); */
+  /* -webkit-filter: grayscale(100%); */
 }
 
 .client:hover {
@@ -2255,7 +2269,7 @@ textarea.form-control {
 }
 
 .site-footer .container {
-  padding: 70px 15px 100px;
+  padding: 50px 10px 50px;
 }
 
 .site-footer ul {
